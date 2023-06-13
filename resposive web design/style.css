@@ -1,0 +1,146 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Main styles */
+  header {
+    background-color: #1f1f1f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin:0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #23cf13;
+  }
+  
+  .banner {
+    background-image: url('banner.jpg');
+    background-color: #141414;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .banner p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .cta {
+    background-color: #23cf13;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cta:hover {
+    background-color: #005c8b;
+  }
+  
+  .services {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+  }
+  
+  .services ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services li {
+    margin-right: 50px;
+  }
+  
+  .services li:last-child {
+    margin-right: 0;
+  }
+  
+  .service-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .service-icon img {
+    max-width: 100%;
+  }
+  
+  .services h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .services p {
+    font-size: 1.1em;
+  }
+  
+  footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+/*  #161616  #b71540  #16a085*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: top;
+    background-color: #ecf0f1;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: #b71540;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    display: flex;
+    margin-top: 0;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 50px;
+    width: 100px;
+    text-align: center;
+    z-index: 1;
+}
+nav .animate{
+    background-color: #161616;  
+    position: absolute; 
+    height: 100%;
+    width: 100px;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.2s;
+
+}
+nav:hover .animate{
+    opacity: 1;
+}
+nav a:nth-child(1):hover~.animate{
+    left: 0px;
+}
+nav a:nth-child(2):hover~.animate{
+    left: 100px;
+}nav a:nth-child(3):hover~.animate{
+    left: 200px;
+}
+nav a:nth-child(4):hover~.animate{
+    left: 300px;
+}
+nav a:nth-child(5):hover~.animate{
+    left: 400px;
+}
+nav a:nth-child(6):hover~.animate{
+    left: 500px;
+}
+nav a:nth-child(7):hover~.animate{
+    left: 600px;
+}
+
+
+.footer-footer{
+    background-color:#101010;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;    
+    bottom:0;
+}
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}
